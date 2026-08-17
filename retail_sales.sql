@@ -21,8 +21,8 @@ CREATE TABLE retail_sales (
     gender VARCHAR(15),
     age INT,
     category VARCHAR(100),
-    quantity INT,           -- (Diperbaiki dari typo 'quantiy')
-    price_per_unit NUMERIC, -- (Menggunakan NUMERIC lebih akurat untuk uang daripada FLOAT)
+    quantity INT,           
+    price_per_unit NUMERIC, 
     cogs NUMERIC,
     total_sale NUMERIC
 );
